@@ -1,0 +1,22 @@
+INSERT INTO `vouchers` (`vouchers_id`, `code`, `value`, `type`, `expires`, `usage_times`, `created_at`)
+VALUES
+(1, 'DISC20240101A', 10, 'percentage', '2025-12-31 23:59:59', 100, NOW()),
+(2, 'DISC20240101B', 15, 'percentage', '2025-12-31 23:59:59', 100, NOW()),
+(3, 'FIXED5A', 5, 'fixed', '2025-12-31 23:59:59', 100, NOW()),
+(4, 'FIXED10B', 10, 'fixed', '2025-12-31 23:59:59', 100, NOW()),
+(5, 'HOLIDAY50', 50, 'percentage', '2025-12-31 23:59:59', 50, NOW()),
+(6, 'WELCOME10', 10, 'percentage', '2025-12-31 23:59:59', 500, NOW()),
+(7, 'VIP20', 20, 'percentage', '2025-12-31 23:59:59', 10, NOW()),
+(8, 'SPECIAL15', 15, 'percentage', '2025-12-31 23:59:59', 200, NOW()),
+(9, 'BLACKFRIDAY', 30, 'percentage', '2025-12-31 23:59:59', 300, NOW()),
+(10, 'CYBERMONDAY', 25, 'percentage', '2025-12-31 23:59:59', 250, NOW()),
+(11, 'SUMMER20', 20, 'percentage', '2025-12-31 23:59:59', 150, NOW()),
+(12, 'WINTER25', 25, 'percentage', '2025-12-31 23:59:59', 120, NOW()),
+(13, 'AUTUMN30', 30, 'percentage', '2025-12-31 23:59:59', 100, NOW()),
+(14, 'SPRING15', 15, 'percentage', '2025-12-31 23:59:59', 180, NOW()),
+(15, 'LIMITED5', 5, 'fixed', '2025-12-31 23:59:59', 75, NOW()),
+(16, 'FIXED25', 25, 'fixed', '2025-12-31 23:59:59', 50, NOW()),
+(17, 'BIGDISCOUNT', 40, 'percentage', '2025-12-31 23:59:59', 25, NOW()),
+(18, 'NEWYEAR50', 50, 'percentage', '2025-12-31 23:59:59', 30, NOW()),
+(19, 'BIRTHDAY10', 10, 'percentage', '2025-12-31 23:59:59', 500, NOW()),
+(20, 'ANNIVERSARY15', 15, 'percentage', '2025-12-31 23:59:59', 300, NOW());

@@ -1,0 +1,22 @@
+INSERT INTO `saved_payment_methods` (`guest_id`, `payment_method_id`, `method_name`) 
+VALUES 
+(1, 5, 'Visa - Personal'),
+(3, 12, 'Mastercard - Business'),
+(5, 20, 'PayPal - Main'),
+(7, 7, 'Visa - Backup'),
+(9, 9, 'American Express - Travel'),
+(11, 25, 'Discover - Shopping'),
+(13, 17, 'Visa - Business'),
+(15, 30, 'Mastercard - Online'),
+(17, 4, 'Visa - Rewards'),
+(19, 40, 'PayPal - Savings'),
+(21, 3, 'Mastercard - Default'),
+(23, 18, 'American Express - Corporate'),
+(25, 32, 'Visa - Work'),
+(27, 8, 'Mastercard - Travel'),
+(29, 21, 'PayPal - Subscription'),
+(31, 13, 'Visa - Shopping'),
+(33, 45, 'Mastercard - Gold'),
+(35, 2, 'Visa - Debit'),
+(37, 27, 'American Express - Premium'),
+(39, 35, 'Mastercard - Silver');

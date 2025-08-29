@@ -1,0 +1,22 @@
+INSERT INTO `messages` (`reciever_id`, `sender_id`, `subject`, `text`, `time_created`)
+VALUES
+(1, 2, 'Welcome to the Platform', 'Hi Ivan, welcome aboard! We hope you enjoy using our service.', NOW()),
+(2, 3, 'Account Verification', 'Luka, your account has been successfully verified. Thank you for joining us!', NOW()),
+(3, 4, 'New Feature Announcement', 'Petra, we have some exciting new features coming up. Stay tuned!', NOW()),
+(4, 5, 'Booking Confirmation', 'Ema, your booking has been confirmed for the upcoming weekend. Enjoy your stay!', NOW()),
+(5, 6, 'Payment Received', 'Marko, we have received your payment. Thank you for your prompt action!', NOW()),
+(6, 7, 'Password Reset', 'Mia, your password reset request has been successfully processed. You can now log in with your new password.', NOW()),
+(7, 8, 'Account Upgrade', 'Karlo, your account has been upgraded to the premium tier. Enjoy the extra benefits!', NOW()),
+(8, 9, 'Reminder: Booking Date Approaching', 'Lana, just a reminder that your booking date is approaching. Looking forward to your arrival!', NOW()),
+(9, 10, 'Booking Cancelled', 'Josip, unfortunately, your booking has been canceled. Please contact support for more information.', NOW()),
+(10, 11, 'Review Request', 'Marija, we would love to hear your feedback on your recent stay. Please leave us a review!', NOW()),
+(11, 12, 'System Maintenance', 'Filip, we will be undergoing system maintenance this weekend. Apologies for any inconvenience.', NOW()),
+(12, 13, 'Promotional Offer', 'Ivana, we have a special discount offer just for you. Don\'t miss out on this exclusive deal!', NOW()),
+(13, 14, 'Event Invitation', 'Mateo, you are invited to our upcoming virtual event. We hope you can join us!', NOW()),
+(14, 15, 'Welcome Package', 'Lucija, your welcome package has been sent. Expect it to arrive soon!', NOW()),
+(15, 16, 'Thank You for Your Purchase', 'Nikola, thank you for your recent purchase. We hope you enjoy your new product!', NOW()),
+(16, 17, 'Survey Request', 'Iva, we value your opinion. Please take a moment to complete our survey.', NOW()),
+(17, 18, 'Offer Expiring Soon', 'Toni, just a reminder that your special offer will expire in 24 hours. Don\'t miss out!', NOW()),
+(18, 19, 'New Message from Support', 'Marta, our support team has sent you a new message regarding your request. Please check your inbox.', NOW()),
+(19, 20, 'Subscription Expiration', 'Stipe, your subscription is about to expire. Please renew to continue enjoying our services.', NOW()),
+(20, 21, 'Thank You for Joining', 'Lea, thank you for joining our platform. We are excited to have you with us!', NOW());
