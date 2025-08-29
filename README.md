@@ -112,3 +112,4 @@ Administrative functions – admins will manage conflicts, respond to tickets. T
 tracked in logs.
 Users will be able to choose different languages and currencies in the settings.
 
+HOW TO INSTALL - CHECK THE Installation_Manual.pdf
